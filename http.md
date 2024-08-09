@@ -50,7 +50,7 @@ The request line contains three parts:
 - **Request-URI**: The identifier of the resource (e.g., /index.html).
 - **HTTP Version**: The version of the HTTP protocol being used (e.g., HTTP/1.1).
 
-Example:
+
 
 
 ### 3.2 Response Status Line
@@ -59,15 +59,13 @@ The response status line consists of:
 - **Status Code**: A three-digit code indicating the result of the request.
 - **Reason Phrase**: A textual description of the status code.
 
-Example:
+
 
 
 ### 3.3 Headers
 HTTP headers provide additional context about the request or response. Headers are key-value pairs separated by a colon. Common headers include:
 - **Request Headers**: Accept, User-Agent, Host, etc.
-- **Response Headers**: Content-Type, Content-Length, Set-Cookie, etc.
-
-Example:
+- **Response Headers**: Content-Type, Content-Length, Set-Cookie, etc
 
 
 ## 4. HTTP Methods
